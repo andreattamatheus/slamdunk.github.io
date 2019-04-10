@@ -1,0 +1,100 @@
+@charset"utf-8";
+
+body {
+	background-color: white;
+	color: rgba(0,0,0,1);
+	margin: auto 0;
+    font-family: Arial;
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+	color: #857f82;
+}
+
+ol {
+	color: #857f82;
+}
+/* --------- FORMATAÇÃO DE IMAGENS --------- */
+div#cover-area{
+	background: url('https://wallpaperfm.com/img/original/9/a/8/16419.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 700px;
+}
+
+div#cover-area p: {
+	position: absolute;
+	margin-top: 50px;
+
+}
+
+img#java {
+	width: 100px;
+	height: 100px;
+}
+
+/* ------ FORMATAÇÃO DO MENU -------*/
+nav#menu {
+	position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #181718;
+}
+
+nav#menu ul {
+	display: flex;
+	justify-content: flex-end;
+    list-style: none;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+nav#menu li {
+	margin-top: 0px;
+	padding: 10px;
+	margin: 2px;
+	border-radius: 5px;
+}
+
+nav#menu li.first {
+	margin-right: auto;
+
+}
+
+nav#menu li:hover{
+	background-color: #606060;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;
+
+}
+
+nav#menu a{
+	color: white;
+	text-decoration: none;
+}
+
+nav#menu a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+
+/* Michael Jordan Pop-up */
+#prodImagem {
+	width: 100px;
+	height: 100px;
+	display: none;
+	position: absolute;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	text-decoration: none;
+}
