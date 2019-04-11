@@ -17,7 +17,7 @@ ol {
 	color: #857f82;
 }
 
-div#texto {
+div.texto {
 	width: 80%;
 	margin: 1px 8% 1px 7%;
 	padding: 2px 2px 2px 2px;
@@ -29,7 +29,7 @@ footer {
 	color: white; 
 }
 /* --------- FORMATAÇÃO DA IMAGEM DE FUNDO --------- */
-img#cover-image{
+img.cover-image{
 	background-size: 100% 100%;
 	background-position: center;
 	width: 100%;
@@ -55,14 +55,14 @@ nav {
 }
 
 
-nav#menu {
+nav.menu {
 	position: fixed;
     top: 0;
     width: 100%;
     background-color: #181718;
 }
 
-nav#menu ul {
+nav.menu ul {
 	display: flex;
 	justify-content: flex-end;
     list-style: none;
@@ -70,19 +70,19 @@ nav#menu ul {
     margin: 0;
 }
 
-nav#menu li {
+nav.menu li {
 	margin-top: 0px;
 	padding: 10px;
 	margin: 2px;
 	border-radius: 5px;
 }
 
-nav#menu li.first {
+nav.menu li.first {
 	margin-right: auto;
 
 }
 
-nav#menu li:hover{
+nav.menu li:hover{
 	background-color: #606060;
 	transition: background-color 1s;
 	-webkit-transition: background-color 1s;
@@ -93,12 +93,12 @@ nav#menu li:hover{
 
 }
 
-nav#menu a{
+nav.menu a{
 	color: white;
 	text-decoration: none;
 }
 
-nav#menu a:hover{
+nav.menu a:hover{
 	color: white;
 	text-decoration: underline;
 }
@@ -125,7 +125,7 @@ h4 {
 	text-align: center;
 }
 
-h4#titulo {
+h4.titulo {
 	text-align: left;
 }
 
