@@ -3,18 +3,29 @@
 <html>
 <head>
 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>O mangá que salvou o basquete japônes</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
+<!--- JavaScript Button ------>
 	<script language="JavaScript">
 		function mostrarElemento(id, visibilidade) {
 			document.getElementById(id).style.display = visibilidade;
 		}
 	</script>
 </head>
+
 <body>
+<!--------- BootStrap Template -------->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 <!-- IMAGEM DE FUNDO-->	
-<div id="cover-area"></div>
+<div id="cover-area">
 	<img id="cover-image" src="https://wallpaperfm.com/img/original/9/a/8/16419.jpg" alt="Slam Dunk Sakuragi animes">
+</div>
 
 <!-- MENU COLOCADO NO TOPO -->
 <div id="interface">
@@ -22,39 +33,41 @@
 		<nav id="menu">
 			<ul>
 				<li class="first"><a href="index.html">Inicial</a></li>
-				<li><a href="fale-conosco.html">Fale comigo</a></li>
-				<li><a href="https://www.youtube.com/watch?v=9CNuuDhRGRY&t=246s">Referências</a></li>
-				<li><a href="https://matheusandreatta.com">Meu blog</a></li>
+				<li><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5527996397188" target="_blank">Fale comigo</a></li>
+				<li><a href="https://www.youtube.com/watch?v=9CNuuDhRGRY&t=246s" target="_blank">Referências</a></li>
+				<li><a href="https://matheusandreatta.com" target="_blank">Meu blog</a></li>
 			</ul>
 		</nav>
 	</header>
 </div>
 
 <!-------------- CORPO DO SITE-------------->
-<div id="texto">
 
 <!-- CABEÇALHO-->
-<section>
-<div id="texto-cabecalho">
-<hgroup>
-<h5>por Matheus Andreatta</h5>
-<h3>Quando penso em basquete, duas coisas vêm a mente:</h3>
-	<ol>
-		<li><a href="https://www.spacejam.com/archive/spacejam/movie/jam.htm">Space Jam;</a>
-			<a href="#" onMouseOver="mostrarElemento('prodImagem', 'inline');"
-					onMouseOut="mostrarElemento('prodImagem', 'none');">[aquele com Michael Jordan]</a>
-			<div id="prodImagem"><img id="java" src="http://c3.thejournal.ie/media/2014/02/spacejam-390x285.png"></a></div>
-		</li><br>
-		<li>Slam Dunk;</li>
-	</ol>
 
-<h2>Sua história</h2>
-</hgroup>
-</div id="texto-cabecalho">
-</section>
+<div id="texto">
+	<hgroup>
+	<h5>por <a href="#" onMouseOver="mostrarElemento('prodImagemEu', 'inline');"
+						onMouseOut="mostrarElemento('prodImagemEu', 'none');">Matheus Andreatta</a>
+				<div id="prodImagemEu"><img id="java" src="https://scontent.fvix1-1.fna.fbcdn.net/v/t1.0-9/56586012_2174911635928434_8687919121192452096_n.jpg?_nc_cat=103&_nc_ht=scontent.fvix1-1.fna&oh=221a19f88def14ab0cc6a0c5166508e0&oe=5D2F164C"></h5>
+
+	<h3>Quando penso em basquete, duas coisas vêm a mente:</h3>
+
+		<ol>
+			<li><a href="https://www.spacejam.com/archive/spacejam/movie/jam.htm">Space Jam;</a>[aquele com 
+				<a href="#" onMouseOver="mostrarElemento('prodImagem', 'inline');"
+						onMouseOut="mostrarElemento('prodImagem', 'none');">Michael Jordan</a>]
+				<div id="prodImagem"><img id="java" src="http://c3.thejournal.ie/media/2014/02/spacejam-390x285.png"></div>
+			</li><br>
+			<li>Slam Dunk;</li>
+		</ol>
+
+	<h2>Sua história [PARTE 1]</h2>
+	</hgroup>
+
 
 <!-- TEXTO PRINCIPAL -->
-<article>
+<section>
 <div id="texto-principal">
 <p>
 Nos anos 70, a NBA (principal liga de basquete americana) estava se tornando a força que está dominando o mundo. Nessa mesma época, os jogadores lendários estavam em alta, hall’s da fama como Magic Johnson, Michael Jordan e Larry Bird. Mas nosso assunto é a 10.144 km dos EUA, nossa começa no Japão, onde o basquete não era apenas impopular era praticamente inédito com raras transmissões (Brasil?), sendo que eventos esportivos do exterior eram caros para ser transmitidos, lembre-se que a Internet é bem novinha.</p>
@@ -64,26 +77,38 @@ desenhar, sendo que suas duas paixões de basquete e mangá acabaria por levá-l
 <p>
 Em 1990, ainda não tendo desenhado a sua própria série original, ele começou a escrever uma história, era sobre um jogador de basquete do ensino médio que começou a jogar basquete para impressionar uma garota que ele gostava. (soa familiar?)</p>
 <p>
-O mangá de Slam Dunk estreou pela <strong>Shonen Jump</strong> (famosa editora de mangás) em outubro de 1990. Nosso anti-herói Sakuragi Hanamichi, com seu cabelo vermelho e uma péssima atitude, era apenas no fundo apenas adolescente normal de sangue quente. <i> Autoploclamado gênio, ele planejava se tornar o melhor jogador de basquete e assim conquistar a menina que gostava.</i></p>
+O mangá de Slam Dunk estreou pela <strong>Shonen Jump</strong> (famosa editora de mangás) em outubro de 1990. Nosso anti-herói Sakuragi Hanamichi, com seu cabelo vermelho e uma péssima atitude, era apenas no fundo apenas adolescente normal de sangue quente. <i><b> Autoploclamado gênio, ele planejava se tornar o melhor jogador de basquete e assim conquistar a menina que gostava.</b></i></p>
 <p>
 Ninguém poderia ter previsto que um mangá sobre basquete se tornaria tão popular, Slam Dunk não é o típico mangá esportivo, nosso anti-herói, ele entra em lutas, não tem paciência ou respeito para aprender como realmente jogar basquete.</p>
-<p>Inoue tirou diversas referências da NBA.</p> 
-<figure class="foto-post">
-	<img src="https://cdn.akurat.co/images/uploads/akurat_20170818051050_174Pi1.jpg"> 
-	<h4>Sakuragi por exemplo, é a cópia cuspida de Dennis Rodman, seja de estilo de jogo ou aparência.</h4>
-</figure>
-<figure class="foto-post">
-	<img src="https://www.torcedores.com/content/uploads/2017/10/Wordpress.jpg">
-	<h4>Seu rival de time, Rukawa, é baseado em Michael Jordan, tendo até a braçadeira no braço.</h4>
-</figure>
-<figure class="foto-post">
+<h4><u> Inoue <s>copiou</s> se inspirou com diversos atletas da NBA</u>: </h4> 
+
+</div>
+
+</section>
+<!-- ARTICLE BOOTSTRAP CONTAINER-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<img src="https://cdn.akurat.co/images/uploads/akurat_20170818051050_174Pi1.jpg"> 
+			<h4><li>Sakuragi por exemplo, é a cópia cuspida de Dennis Rodman, seja de estilo de jogo ou aparência.</li></h4>
+		</div>
+		<div class="col-md-6">
+			<img src="https://www.torcedores.com/content/uploads/2017/10/Wordpress.jpg">
+			<h4><li>Seu rival de time, Rukawa, é inspirado em Michael Jordan, tendo até a braçadeira no braço.</li></h4>
+		</div>
+	</div>
+</div>
+
+<div class="foto">
 	<img src="http://otakukart.com/animeblog/wp-content/uploads/2016/04/bLH3fzg.jpg">
-	<h4>O capitão Akagi é um clone de Patrick Ewing, jogando na mesma posição de pivô.</h4>
-</figure>
-</p>
-</div id="texto-principal">
-</div id="texto">
-</article>
+	<h4 class="patrick"><li>O capitão e pivô Akagi, clone de Patrick Ewing, esse que por sua vez também atuava como pivô.</li></h4>
+</div>
+	
+
+<!-- FINAL DO TEXTO --->
+</div>
+
+
 
 <!------ RODAPÉ ------->
 <footer>No Copyright 2019 - by Matheus Andreatta</footer>

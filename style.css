@@ -28,7 +28,7 @@ footer {
 	background-color: #181718;
 	color: white; 
 }
-/* --------- FORMATAÇÃO DE IMAGENS --------- */
+/* --------- FORMATAÇÃO DA IMAGEM DE FUNDO --------- */
 img#cover-image{
 	background-size: 100% 100%;
 	background-position: center;
@@ -43,7 +43,18 @@ img#java {
 	border-radius: 10px;
 }
 
+
 /* ------ FORMATAÇÃO DO MENU -------*/
+@media only screen and (max-width: 600px){
+	font-size:0.5em;
+	padding:0;
+}
+
+nav {
+    z-index: 9999;
+}
+
+
 nav#menu {
 	position: fixed;
     top: 0;
@@ -93,7 +104,33 @@ nav#menu a:hover{
 }
 
 
+/** FORMATAÇÃO DO ARTICLE E IMAGENS DELE COM CONTAINER **/
+
+.container{
+	display: flex;
+	flex-direction: row;
+	margin-top:30px;
+}
+
+@media	(min-width: 500px){
+	container{
+	display: flex;
+	flex-direction: row;		
+	}
+}
+/** LEGENDA DAS FOTOS **/
+
+h4 {
+	width: 80%;
+}
+
+.patrick {
+	width: 60%;
+}
+
+
 /* FORMTAÇÃO DO JAVASCRIPT */
+
 #prodImagem {
 	width: 100px;
 	height: 100px;
@@ -104,3 +141,15 @@ nav#menu a:hover{
 	border-radius: 10px;
 	text-decoration: none;
 }
+
+#prodImagemEu {
+	width: 100px;
+	height: 100px;
+	display: none;
+	position: absolute;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
