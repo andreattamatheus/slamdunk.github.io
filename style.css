@@ -122,10 +122,16 @@ nav#menu a:hover{
 
 h4 {
 	width: 80%;
+	text-align: center;
+}
+
+h4#titulo {
+	text-align: left;
 }
 
 .patrick {
 	width: 60%;
+	text-align: left;
 }
 
 
@@ -153,3 +159,7 @@ h4 {
 	text-decoration: none;
 }
 
+img.Shohoku {
+	width: 130px; 
+	height: 54px;	
+} 
